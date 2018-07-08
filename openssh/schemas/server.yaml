@@ -36,6 +36,13 @@ properties:
         description: Specifies the port on which the server listens for connections. Multiple options are permitted.
         type: string
         example: 127.0.0.1 192.168.1.1
+  challenge_response_auth:
+    description: |
+      ChallengeResponseAuthentication
+      -----------------------
+      Specifies to enable challenge-response passwords.
+      The default is False(“no”).
+    type: boolean
   host_auth:
     description: |
       HostbasedAuthentication
